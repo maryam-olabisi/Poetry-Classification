@@ -1,1 +1,3 @@
-# Poetry-Classification
+# Science Poetry Classification
+
+To successfully classify poems as science and non-science, science poems were defined based on determined criteria and poems were collected and scraped to build the dataset. The used dataset contained 468 science poems collected online from [Collecting Realities]([url](https://collectingreality.wordpress.com/)), [Poets.org]([url](https://poets.org/poems?field_occasion_target_id=All&field_poem_themes_target_id=1311&field_form_target_id=All&combine=&page=0)) and [Consilience Journal]([url](https://www.consilience-journal.com/)). Six classification models were developed: DBSCAN and KMeans clustering methods, topic modelling with LDA, transformer-based BERT model and neural networks BiLSTM and CNN+BiLSTM models.
